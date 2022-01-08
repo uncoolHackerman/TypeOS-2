@@ -110,7 +110,8 @@ _test:
     call print
     jmp main
     _testMSG:
-        db "OS tech test version 0.0.1 28/12/2021 is working as intended ", 2, 0
+        ; the date is in UK dates DD/MM/YYYY
+        db "OS tech test version 0.4.7 GUI edition 08/01/2022 is working as intended ", 2, 0
 
 _klar:
     mov ah, 0

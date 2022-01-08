@@ -1,3 +1,8 @@
+/*
+    VGA video and Font Driver written by Gabriel Jickells
+    08/01/2022 UK Date
+*/
+
 #ifndef _VGA_H_
 #define _VGA_H_
 #define VGA_MEMORY 0xA0000
@@ -555,7 +560,7 @@ void ClearScreen(char color)
 
 void VGA_TEST()
 {
-int i, j;
+    int i, j;
     for(i = 0;i < 320;i++)
     {
         for(j = 0;j < 200;j++)
